@@ -1,1 +1,8 @@
-
+###### <H1> Steps for Analysis and Their Purposes 
+The first step in analyzing this codex is by importing pandas into the colab notebook. I download the 'inpatient' Medicare fee-for-service claims data from the CMS Synthetic Data Collection and loaded that into the notebook. then I obtained the first few rows of the data set and the column names to better understand how the data is grouped. Afterwards, I started to explore the dataset by identifying the unique values which are icd columns, drg columns, and hcpcs column. To futher understand this data, I also analyze the frequency of each unique value by using frequency counts. I also looked for any missing values that may have been in the codex to make sure all the data and found that there was missing codexes therefore, I filled the data with placeholders to make this dataset more accurate. Lastly, I analyzed the top 5 most common codes from each category in the dataset.
+###### <H1> Key Findings
+I was able to find what the top 5 most common ICD, DRG, and HCPCS codes are in this dataset
+###### <H1> Challenges and How I Overcame Them
+I was able to conclude what the most common ICD, DRG, and HCPCS codes are; however, there was many missing conponents in each dataset. Therefore, I was not able to report on any patterns or insights. 
+###### <H1> Implications of Findings for Healthcare Providers and Policy Makers
+This analysis will be able to aid healthcare providers and policy makers to improve quaility of care. By analyzing types of diagnosis, patient demographics, dianosisng precedures, and other information abput the patient, it can allow healthcare providers to make better treatment options for their patients and allow patients to recieve the care they need more efficiently. 
